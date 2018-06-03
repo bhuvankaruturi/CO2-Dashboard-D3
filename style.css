@@ -1,0 +1,56 @@
+.header {
+	text-align: center;
+	background: blue;
+	color: white;
+}
+
+.header h1 {
+	padding-top: 10px;
+}
+
+input, select {
+	margin: 10px 0;
+}
+
+.container {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.small {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tooltip {
+	position: absolute;
+	opacity: 0;
+	margin: 0;
+	pointer-events: none;
+	border: 4px solid #53fcad;
+	border-radius: 2px;
+	background: #f7f2aa;
+}
+
+.tooltip p{
+	margin: 0 2px;
+}
+
+#map svg {
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#piechart svg {
+	padding: 10px;
+}
+
+#barchart svg {
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
