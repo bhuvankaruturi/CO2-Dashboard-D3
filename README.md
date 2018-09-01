@@ -4,4 +4,4 @@ A comprehensive dashboard consisting maps, pie chart and bar chart to visualize 
 Libraries used:
 * **d3.js V4**
 * **topoJSON**
-Checkout the webapp [here](https://github.com/bhuvankaruturi)
+Checkout the webapp [here]( https://bhuvankaruturi.github.io/CO2-Dashboard-D3/)
